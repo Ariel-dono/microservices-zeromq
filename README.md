@@ -1,5 +1,5 @@
 # Microservices on Node.js using zeromq facilities
-It explores the ZeroMQ's use on building microservices. <br/>
+It explores the ZeroMQ's usage on building microservices. <br/>
 Work-stack: <br/>
 REST API: PolkaJS and ZMQ Interaction <br/>
 Process: Node.JS Processes and ZMQ interaction <br/>
