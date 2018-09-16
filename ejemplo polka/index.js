@@ -3,10 +3,10 @@ const zmq_handler = require('./zmq_handler');
 const app = polka();
 
 //Pool connections
-getter = zmq_handler.getConnection(5555);
-updater = zmq_handler.getConnection(5556);
-maker = zmq_handler.getConnection(5557);
-deleter = zmq_handler.getConnection(5558);
+const getter = zmq_handler.getConnection(5555);
+const updater = zmq_handler.getConnection(5556);
+const maker = zmq_handler.getConnection(5557);
+const deleter = zmq_handler.getConnection(5558);
 
 // Actions
 function response(requester, res, message){
