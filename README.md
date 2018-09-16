@@ -7,3 +7,4 @@ Messaque Queue - Sockets Service: ZeroMQ <br/>
 <br/>
 PolkaJS: https://github.com/lukeed/polka <br/>
 ZeroMQ: http://zeromq.org/ <br/>
+Interesting and useful resource: https://pm2.io/doc/en/runtime/overview/?utm_source=pm2&utm_medium=website&utm_campaign=rebranding
