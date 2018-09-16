@@ -1,5 +1,6 @@
 const polka = require('polka');
 const zmq_handler = require('./zmq_handler.js');
+
 const app = polka();
 
 //Pool connections
