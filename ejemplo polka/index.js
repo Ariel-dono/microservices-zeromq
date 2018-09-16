@@ -1,27 +1,12 @@
 const polka = require('polka');
-var zmq = require('zmq');
-
+const zmq_handler = require('./zmq_handler');
 const app = polka();
 
-// ZMQ Connection
-console.log("Connecting to zmq server…");
-
-function getConnection(port){
-  let requester = zmq.socket('req');
-  requester.connect(`tcp://localhost:${port}`);
-
-  requester.on("message", function(reply) {
-    console.log(reply.toString());
-  });
-
-  return requester;
-}
-
 //Pool connections
-getter = getConnection(5555);
-updater = getConnection(5556);
-maker = getConnection(5557);
-deleter = getConnection(5558);
+const getter = zmq_handler.getConnection(5555);
+const updater = zmq_handler.getConnection(5556);
+const maker = zmq_handler.getConnection(5557);
+const deleter = zmq_handler.getConnection(5558);
 
 // Actions
 function response(requester, res, message){
