@@ -1,7 +1,7 @@
 var zmq = require('zmq');
 
 // ZMQ Connection
-console.log("Connecting to zmq server…");
+console.log("Connecting to zmq server");
 
 module.exports = {
     getConnection: function(port){
