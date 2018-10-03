@@ -1,8 +1,8 @@
-# Microservices on Node.js using zeromq facilities
+# Microservices on Node.js
 It explores the ZeroMQ's usage building microservices. <br/>
 # Stack <br/>
 REST API: [PolkaJS](https://github.com/lukeed/polka) <br/>
-Messaque Queue server: [ZeroMQ](http://zeromq.org/) <br/>
+Messaque Queue Server: [ZeroMQ](http://zeromq.org/) <br/>
 Deploy framework: [PM2](https://pm2.io/) <br/>
 
 # Deploy steps: <br/>
