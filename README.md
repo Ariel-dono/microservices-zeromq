@@ -10,11 +10,11 @@ ZeroMQ: http://zeromq.org/ <br/>
 Interesting and useful resource: https://pm2.io/doc/en/runtime/overview/?utm_source=pm2&utm_medium=website&utm_campaign=rebranding
 
 # Deploy steps: <br/>
-0. $ npm install pm2 -g
-1. $ cd $repository-path/microservices-zeromq
+0. > npm install pm2 -g
+1. > cd $repository-path/microservices-zeromq
 
 ## Deploy workers:
-2. pm2 start ZMQ/read_worker.js ZMQ/create_worker.js ZMQ/update_worker.js ZMQ/delete_worker.js
+2. > pm2 start ZMQ/read_worker.js ZMQ/create_worker.js ZMQ/update_worker.js ZMQ/delete_worker.js
 
 ## Deploy Polka REST API
-3. $ pm2 start API/index.js
+3. > pm2 start API/index.js
