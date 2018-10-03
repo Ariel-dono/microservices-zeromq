@@ -11,7 +11,7 @@ Interesting and useful resource: https://pm2.io/doc/en/runtime/overview/?utm_sou
 
 # Deploy steps: <br/>
 > npm install pm2 -g <br/>
-> cd $repository-path/microservices-zeromq
+> cd $repository_path/microservices-zeromq
 
 ## Deploy workers:
 > pm2 start ZMQ/read_worker.js ZMQ/create_worker.js ZMQ/update_worker.js ZMQ/delete_worker.js
