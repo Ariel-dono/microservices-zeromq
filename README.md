@@ -10,7 +10,7 @@ ZeroMQ: http://zeromq.org/ <br/>
 Interesting and useful resource: https://pm2.io/doc/en/runtime/overview/?utm_source=pm2&utm_medium=website&utm_campaign=rebranding
 
 # Deploy steps: <br/>
-> npm install pm2 -g
+> npm install pm2 -g <br/>
 > cd $repository-path/microservices-zeromq
 
 ## Deploy workers:
