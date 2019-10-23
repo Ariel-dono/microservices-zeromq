@@ -1,4 +1,6 @@
 # Node.js Microservices
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FAriel-dono%2Fmicroservices-zeromq.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FAriel-dono%2Fmicroservices-zeromq?ref=badge_shield)
+
 It explores the ZeroMQ's usage building microservices working in Linux. <br/>
 # Stack <br/>
 REST API: [PolkaJS](https://github.com/lukeed/polka) <br/>
@@ -18,3 +20,7 @@ Deploy framework: [PM2](https://pm2.io/) <br/>
 
 ## Deploy Polka REST API
 > pm2 start API/index.js
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FAriel-dono%2Fmicroservices-zeromq.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FAriel-dono%2Fmicroservices-zeromq?ref=badge_large)
